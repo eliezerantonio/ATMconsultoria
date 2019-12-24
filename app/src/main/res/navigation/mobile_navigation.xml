@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_principal">
+
+    <fragment
+        android:id="@+id/nav_principal"
+        android:name="tech.eliezer.atmconsultoria.ui.principal.PrincipalFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_principal" />
+
+    <fragment
+        android:id="@+id/nav_servicos"
+        android:name="tech.eliezer.atmconsultoria.ui.servicos.ServicosFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_servicos" />
+
+    <fragment
+        android:id="@+id/nav_clientes"
+        android:name="tech.eliezer.atmconsultoria.ui.Clientes.ClientesFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_clientes" />
+
+    <fragment
+        android:id="@+id/nav_contato"
+        android:name="tech.eliezer.atmconsultoria.ui.contato.ContatoFragment"
+        android:label="@string/menu_tools"
+        tools:layout="@layout/fragment_contato" />
+    <fragment
+        android:id="@+id/nav_sobre"
+        android:name="tech.eliezer.atmconsultoria.ui.sobre.SobreFragment"
+        android:label="@string/menu_tools"
+    />
+
+
+
+</navigation>
